@@ -2,13 +2,6 @@
   "name": "razorpay-webhook-backend",
   "version": "1.0.0",
   "description": "Backend service for handling Razorpay payment webhooks and saving to Supabase",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "tsc",
-    "deploy": "vercel --prod",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "@supabase/supabase-js": "^2.56.1"
   },
@@ -19,15 +12,5 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "keywords": [
-    "razorpay",
-    "webhook",
-    "supabase",
-    "vercel",
-    "payment",
-    "registration"
-  ],
-  "author": "",
-  "license": "MIT"
+  }
 }
